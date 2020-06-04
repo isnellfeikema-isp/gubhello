@@ -16,7 +16,7 @@ spec:
         app: hello
     spec:
       containers:
-        - image: isnellfeikema/gubhello:latest
+        - image: isnellfeikema-isp/gubhello:latest
           imagePullPolicy: IfNotPresent
           name: gubhello
           args: [] # See hello.go
@@ -39,3 +39,4 @@ spec:
     app: hello
   sessionAffinity: None
   type: LoadBalancer
+

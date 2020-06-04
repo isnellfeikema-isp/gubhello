@@ -3,7 +3,7 @@ Steps on Ubuntu with Minikube:
 ```bash
 minikube start
 eval $(minikube docker-env)
-docker build . -t isnellfeikema/gubhello
+docker build . -t isnellfeikema-isp/gubhello
 kubectl apply -f gubernator.yaml
 kubectl apply -f hello.yaml
 ```
@@ -69,3 +69,4 @@ $ kubectl scale deployment --replicas=5 gubernator
 ```
 
 Experiment with args in `hello.yaml`.
+

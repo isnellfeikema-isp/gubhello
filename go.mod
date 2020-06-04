@@ -1,4 +1,4 @@
-module github.com/isnellfeikema/gubfun
+module github.com/isnellfeikema-isp/gubhello
 
 go 1.13
 
